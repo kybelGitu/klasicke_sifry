@@ -159,7 +159,7 @@ public class Main {
             System.out.print(i.toString() + ", ");
      List<Object> all_short_perm = Permutations.allPerm(perm_short);
          Text.printList(all_short_perm, "output of all permuts ");
-     //characters
+     //charactersllll
      Character[] perm_char = {'a','b','c'};
      Text.printList(all_short_perm,"pole charov");
      List<Object> all_char_perm = Permutations.allPerm2(perm_char);
