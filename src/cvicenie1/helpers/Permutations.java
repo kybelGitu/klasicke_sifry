@@ -124,7 +124,7 @@ public class Permutations {
                  //Collections.addAll(output,Collections. allPerm2(dest,output));
                  for(int  j = 0; j < currentList.size();j++){
                        Object tmpPerm[] = new Object[input.length];
-                       tmpPerm[0] = input[0];
+                       tmpPerm[0] = copyInput[0];
                        Object tmpPerm2[] = currentList.get(j).clone();
 //                       if(tmpPerm[0] == tmpPerm2[0])
 //                           break;

@@ -160,10 +160,10 @@ public class Main {
      List<Object> all_short_perm = Permutations.allPerm(perm_short);
          Text.printList(all_short_perm, "output of all permuts ");
      //charactersllll
-     Character[] perm_char = {'a','b','c'};
-     Text.printList(all_short_perm,"pole charov");
+     Character[] perm_char = {'a','b','c','d'};
+     Text.printList(all_short_perm,"pole charov.  : " + perm_char.toString());
      List<Object> all_char_perm = Permutations.allPerm2(perm_char);
-     Text.printList(all_char_perm, "out put");
+     Text.printList(all_char_perm, "out put, size: " + all_char_perm.size());
      
           Integer[] perm123 = {3,1,2,5,7,4,6};
           int no = Permutations.noPerm(perm123);
